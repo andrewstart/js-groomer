@@ -19,9 +19,9 @@ const cleaned = groomer.handleFile(myFileInput, function(comment) {
 ```javascript
 const groomer = require('js-groomer');
 const cleaned = groomer.handleFile(myFileInput, function(comment) {
-    if (comment === '// REMOVEME') {
+    if (comment === '// REPLACEME') {
         return {
-            action: groomer.RemoveOptions.REMOVE_COMMENT,
+            action: groomer.RemoveOptions.REPLACE_COMMENT,
             data: 'foobar'
         };
     }
