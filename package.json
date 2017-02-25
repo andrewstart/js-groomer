@@ -1,0 +1,22 @@
+{
+  "name": "js-groomer",
+  "version": "1.0.0",
+  "description": "Searches JS code for specific comments and allows stripping out those comments or the following chunk of code.",
+  "main": "index.js",
+  "files": [
+      "index.js",
+      "package.json"
+  ],
+  "scripts": {
+      "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.jibo.com:andrewstart/js-groomer.git"
+  },
+  "author": "andrew.start@jibo.com",
+  "license": "MIT"
+}
